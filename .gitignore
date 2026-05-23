@@ -1,0 +1,26 @@
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# RAG artifacts (generated)
+chroma_db/
+
+# Large/local documents
+document loaders/*.pdf
